@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+
+# Build files
+dist/
+build/
+.tmp/
+
+# Database
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker files
+docker-compose.override.yml
